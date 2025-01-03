@@ -1,35 +1,23 @@
 # exclude all
 *
-!*/
 .venv
+.env
 node_modules
 
 # but these file type
-!*.c
-!*.h
 !*.py
-!makefile
 !*.md
 !*.sh
 !*.html
 
 # and these cuties too
 !.gitignore
-!.myfuncs
 !requirements.txt
 !Dockerfile
-!nginx.conf
-!compose.yaml
 !Jenkinsfile*
-!webapp-weather.yaml
 !*.yaml
 !*.yml
 !*.tf
-.env
-!filebeat.docker.yml
-!logstash.conf
-!*.txt
-.terraform
 !*.json
 !screenshot.png
 !*.tsx
@@ -38,3 +26,4 @@ node_modules
 !*.css
 !*.mp3
 !*.png
+!*/
