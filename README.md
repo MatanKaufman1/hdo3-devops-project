@@ -173,6 +173,4 @@ The application is deployed using Helm, which handles Kubernetes deployments and
 
 The deployment process ensures that the application is always running the latest Docker image from Nexus.
 
-## License
 
-This project is licensed under the **GNU GENERAL PUBLIC LICENSE** - see the [LICENSE](LICENSE) file for details.
