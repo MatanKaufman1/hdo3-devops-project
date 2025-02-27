@@ -70,7 +70,7 @@ pipeline {
             }
         }
         
-        /*
+       
         stage('Run Unit Tests') {
             when {
                 not { branch 'main' }
@@ -86,7 +86,7 @@ pipeline {
                 }
             }
         }
-        */
+       
 
         stage('Hadolint Dockerfile') {
             when {
@@ -111,7 +111,7 @@ pipeline {
                 }
             }
         }
-        /*
+        
         stage('Health Check Docker Container') {
             when {
                 not { branch 'main' }
@@ -134,7 +134,7 @@ pipeline {
                 }
             }
         }
-        */
+        
         stage('Push Docker Image to Dev Repo') {
             when {
                 not { branch 'main' }
